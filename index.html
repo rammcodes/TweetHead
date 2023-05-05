@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TweetHead - Create a stunning tweet-style Twitter profile header (banner) </title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description"
+        content="Welcome to TweetHead! - A tool to quickly create a stunning tweet-style Twitter profile header (banner) to boost your personal brand">
+    <meta property="og:title" content="TweetHead - Create a stunning tweet-style Twitter profile header (banner)" />
+    <meta property="og:site_name" content="TweetHead" />
+    <meta property="og:url" content="https://linkeder.netlify.app/" />
+    <meta property="og:description"
+        content="Welcome to TweetHead! - A tool to quickly create a stunning tweet-style Twitter profile header (banner) to boost your personal brand" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://i.postimg.cc/25F4DFbx/screely-1682762216450.png" />
+
+</head>
+
+<body>
+    <main class="main">
+        <div class="main__app-info">
+            <div class="main__app-info-content">
+                Welcome to <b>TweetHead!</b> A tool to quickly create a stunning tweet-style Twitter profile header
+                to boost your personal brand made by <a href="https://twitter.com/rammcodes"><b>Ram
+                        Maheshwari</b></a> ⚡
+            </div>
+        </div>
+        <div class="main__post">
+            <div class="main__post-bg">
+                <div class="main__post-container">
+                    <div class="main__post-upper">
+                        <div class="main__post-user">
+                            <div class="main__post-user-img-cont">
+                                <img src="https://pbs.twimg.com/profile_images/1628054594508165121/BLh_VP3W_400x400.jpg"
+                                    alt="User Image" class="main__post-user-img">
+                            </div>
+                            <div class="main__post-user-details">
+                                <div class="main__post-user-name-cont">
+
+                                    <div class="main__post-user-name"></div>
+                                    <img class="main__post-user-name-verified"
+                                        src="./assets/png/Twitter_Verified_Badge.svg.png" alt="twitter verified icon">
+
+                                </div>
+                                <div class="main__post-user-prof"></div>
+                            </div>
+                        </div>
+                        <div class="main__post-follow">
+                            <div class="main__post-follow-btn">
+                                <div style="display: flex; align-items: center;" class="main__post-follow-btn-txt">
+                                    <span style="margin-right: 0.2em; line-height: 0; font-size: 1.3em;">+</span>
+                                    Follow
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__post-text-cont">
+                    </div>
+                    <!-- <img class="main__post-img" width="100%" style="margin-top: 3rem; border-radius: 10px;"
+                            src="./snexv_512.jpg" alt=""> -->
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <form action="" class="main__form">
+        <div class="main__form-field">
+            <label for="Name" class="main__form-label">Name</label>
+            <input name="Name" type="text" class="main__form-input main__form-input-name">
+            <emoji-picker class="light main__form-input-name-emoji-picker"></emoji-picker>
+        </div>
+        <div class="main__form-field">
+            <label for="Profession" class="main__form-label">Username</label>
+            <input name="Profession" type="text" class="main__form-input main__form-input-prof">
+        </div>
+        <div class="main__form-field">
+            <label for="Message" class="main__form-label">Message</label>
+            <textarea class="main__form-input main__form-input-msg" name="Message" id="" cols="30" rows="8"></textarea>
+            <emoji-picker class="light main__form-input-msg-emoji-picker"></emoji-picker>
+
+        </div>
+        <div class="main__form-field">
+            <label for="Profile Picture" class="main__form-label">Profile Picture</label>
+            <input name="Profile Picture" type="file" class="main__form-input main__form-input-ppic">
+
+        </div>
+
+        <div class="main__form-field">
+            <label for="Background Color" class="main__form-label">Background Color</label>
+            <input name="Background Color" type="color" value="#facf0f"
+                class="main__form-input main__form-input-bgcolor">
+
+        </div>
+
+        <!-- <div class="main__form-field">
+            <label for="Background Space" class="main__form-label">Background Space</label>
+            <input name="Background Space" value="8" min="2" max="14" type="range"
+                class="main__form-input main__form-input-bgSpace">
+
+        </div> -->
+
+        <div class="main__form-field">
+            <label for="Background Pattern" class="main__form-label">Background Pattern</label>
+            <div class="main__form-bg-pattern-list">
+                <!-- <div class="main__form-bg-pattern"></div>
+                <div class=" main__form-bg-pattern"></div>
+                <div class="main__form-bg-pattern"></div>
+                <div class="main__form-bg-pattern"></div>
+
+                <div class="main__form-bg-pattern"></div>
+
+                <div class="main__form-bg-pattern"></div>
+
+                <div class="main__form-bg-pattern"></div>
+
+                <div class="main__form-bg-pattern"></div> -->
+
+            </div>
+
+        </div>
+
+        <div class="main__form-field">
+            <label for="Mode" class="main__form-label">Mode</label>
+            <select name="Mode" class="main__form-mode">
+                <option value="light">Light Mode</option>
+                <option value="dark">Dark Mode</option>
+            </select>
+        </div>
+
+        <div class="main__form-field">
+            <label for="Verified" class="main__form-label">Verified</label>
+            <select name="Verified" class="main__form-verified">
+                <option value="no">No</option>
+                <option value="yes">Yes</option>
+            </select>
+        </div>
+
+
+    </form>
+
+    <section class="bottom-bar">
+        <div class="bottom-bar__logo-cont">
+            <img src="./assets/png/tweethead-logo.png" alt="TweetHead Logo">
+        </div>
+        <button class="bottom-bar__download-btn">Download Image 🔥</button>
+
+    </section>
+
+
+    <!--  -->
+    <div class="preview-modal preview-modal--hide">
+        <div class="preview-modal__cont">
+            <p class="preview-modal__txt">
+                Done! Right-click (or hold down on mobile) on the image and press Save Image to save it to your device.
+            </p>
+            <span class="preview-modal__close">
+                +
+            </span>
+        </div>
+    </div>
+
+    <!-- Overlay and pop-up content -->
+    <div class="overlay" id="yt-overlay">
+        <div class="yt-popup" id="yt-popup">
+            <span class="yt-close" onclick="closePopup()">&times;</span>
+            <!-- <iframe width="100%" src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID?autoplay=1" frameborder="0"
+                allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+
+
+
+            <iframe src="https://www.youtube.com/embed/Zr-cfaDaW-k" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html-to-image/1.11.11/html-to-image.min.js"
+        integrity="sha512-7tWCgq9tTYS/QkGVyKrtLpqAoMV9XIUxoou+sPUypsaZx56cYR/qio84fPK9EvJJtKvJEwt7vkn6je5UVzGevw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/html2canvas@latest/dist/html2canvas.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/dom-to-image/dist/dom-to-image.min.js" crossorigin="anonymous" -->
+    <!-- referrerpolicy="no-referrer"></script> -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/emoji-picker-element@^1/index.js"></script>
+
+    <!-- JavaScript to control the pop-up -->
+    <script>
+        // function to show the pop-up
+        function showPopup() {
+            document.getElementById("yt-overlay").style.display = "block";
+        }
+        // showPopup()
+
+        // function to close the pop-up
+        function closePopup() {
+            document.getElementById("yt-overlay").style.display = "none";
+        }
+
+        // show the pop-up when the page loads (change the cookie name to whatever you prefer)
+        if (!document.cookie.includes("popupShown=true")) {
+            showPopup();
+            document.cookie = "popupShown=true; expires=Fri, 29 Apr 2024 00:00:00 UTC; path=/";
+        }
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
